@@ -10,10 +10,10 @@ orm:
 
 # Configuración personal
 author:
-  name: Tu Nombre
-  email: tu@email.com
-  github: tuusuario
-  twitter: tuusuario
+  name: Washington Olarte Velasquez
+  email: 23976963@continental.edu.pe
+  github: Wachifr
+  
 
 # Configuración de construcción
 markdown: kramdown
