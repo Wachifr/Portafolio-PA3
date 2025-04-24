@@ -1,0 +1,20 @@
+title: Mi Portafolio
+description: Portafolio profesional con TDD y ORM en JSON
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Configuración ORM
+orm:
+  data_file: "_data/projects.json"
+
+# Configuración personal
+author:
+  name: Tu Nombre
+  email: tu@email.com
+  github: tuusuario
+  twitter: tuusuario
+
+# Configuración de construcción
+markdown: kramdown
+permalink: pretty
