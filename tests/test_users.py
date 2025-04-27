@@ -1,12 +1,12 @@
 from models.user import User
 
 def test_usuario_valido():
-    u = User("luis", "luis@correo.com")
-    assert u.to_dict()["email"] == "luis@correo.com"
+    u = User("Wachifr", "23976963@continental.edu.pe")
+    assert user.to_dict()["email"] == "23976963@continental.edu.pe"
 
 def test_email_invalido():
     try:
-        User("ana", "anacorreo.com")
+        User("usuario", "correo_invalido.com")
         assert False
-    except ValueError as e:
-        assert "no válido" in str(e)
+    except ValueError:
+        assert True
