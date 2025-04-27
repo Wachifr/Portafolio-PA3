@@ -1,20 +1,3 @@
-title: Mi Portafolio
+title: Portafolio de Washington Olarte Velasquez
 description: Portafolio profesional con TDD y ORM en JSON
 theme: minima
-plugins:
-  - jekyll-feed
-
-# Configuración ORM
-orm:
-  data_file: "_data/projects.json"
-
-# Configuración personal
-author:
-  name: Washington Olarte Velasquez
-  email: 23976963@continental.edu.pe
-  github: Wachifr
-  
-
-# Configuración de construcción
-markdown: kramdown
-permalink: pretty
