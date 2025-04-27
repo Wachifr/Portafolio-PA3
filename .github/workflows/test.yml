@@ -1,0 +1,14 @@
+name: Ejecutar pruebas
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Pruebas de modelo
+      run: |
+        cd nombre-integrante/tests
+        python3 test_posts.py
+        python3 test_users.py
