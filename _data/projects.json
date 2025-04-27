@@ -1,20 +1,16 @@
 {
   "projects": [
     {
-      "id": 1,
-      "title": "Proyecto 1",
-      "description": "Descripción del proyecto 1",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "url": "https://ejemplo.com/proyecto1",
-      "image": "/assets/images/project1.jpg"
+      "title": "Diseño de sistemas de seguridad",
+      "description": "Implementacion de soluciones de seguridad para cobertura de 5 pisos",
+      "technologies": ["Python", "Django"],
+      "Link": "#"
     },
     {
-      "id": 2,
-      "title": "Proyecto 2",
-      "description": "Descripción del proyecto 2",
+      "title": "Laboratorios de CCTV",
+      "description": "Desarrollo de plataforma para practicas de instalcionde CCTV",
       "technologies": ["Python", "Django"],
-      "url": "https://ejemplo.com/proyecto2",
-      "image": "/assets/images/project2.jpg"
+      "year": "2025"
     }
   ]
 }
