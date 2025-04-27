@@ -1,4 +1,4 @@
-name: Ejecutar pruebas
+name: Ejecutar pruebas TDD
 
 on: [push]
 
@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Pruebas de modelo
+    - name: Ejecutar Tests
       run: |
-        cd nombre-integrante/tests
+        cd Washington-olarte/tests
         python3 test_posts.py
         python3 test_users.py
